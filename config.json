@@ -1,0 +1,5 @@
+{
+  "output_path": "output.puml",
+  "package_name": "Axios",
+  "visualizer_path": "plantuml.jar"
+}

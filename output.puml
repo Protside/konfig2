@@ -1,0 +1,12 @@
+@startuml
+package "Axios" {
+  [Axios] --> [follow-redirects]
+  [Axios] --> [form-data]
+    [form-data] --> [asynckit]
+    [form-data] --> [combined-stream]
+      [combined-stream] --> [delayed-stream]
+    [form-data] --> [mime-types]
+      [mime-types] --> [mime-db]
+  [Axios] --> [proxy-from-env]
+}
+@enduml
